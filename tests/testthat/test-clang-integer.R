@@ -46,5 +46,5 @@ test_that("Capture floating point arithmetics output under clang", {
     }
   )
 
-  expect_snapshot(n - 454)
+  expect_identical(n - 454, 0)
 })
